@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 3px 0px;
+}
+#Grupo1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 430px;
+}
+
+#Grupo2 {
+  display: flex;
+  justify-content: center;
+  background-color: #292929;
+  height: 40px;
+}
+
+#Grupo3 {
+  display: flex;
+  justify-content: center;
+}
+
+#Grupo4 {
+  padding: 50px 250px;
+}
+
+#Grupo5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 180px;
+}
+
+#Grupo6 {
+  display: block;
+  justify-content: flex-start;
+  padding: 10px 260px;
+}
+
+#Grupo7 {
+  padding: 0px 260px;
+}
+
+#Grupo8 {
+  padding: 0px 290px;
+}
+
+#Grupo9 {
+  padding: 0px 290px;
+}
+
+.Destaque {
+  display: flex;
+  align-items: center;
+  background-image: url(./501100109_univ_lsr_lg.jpg);
+  background-size: cover;
+  width: 1000px;
+  height: 400px;
+}
+.Matérias {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.logo {
+  margin-top: -50px;
+  height: 80px;
+  width: 100px;
+}
+
+.botão {
+  display: flex;
+  align-items: center;
+  background-color: #292929;
+  color: white;
+  padding: 15px 32px;
+  border: 0;
+}
+
+.botão:hover {
+  background-color: black;
+}
+
+.Ícone {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.texto {
+  font-size: 150%;
+}
+
+.Botão2 {
+  color: #4a6da7;
+  border: none;
+}
+
+.Botão2:hover {
+  background-color: #a0aec2;
+}
+
+.Ícone2 {
+  width: 20px;
+  height: 20px;
+}
+
+.a {
+  color: white;
+  text-decoration: none;
+}
+
+.Capa {
+  position: absolute;
+  left: 400px;
+  bottom: 200px;
+  background-color: black;
+  font-size: 40px;
+  height: 150px;
+  width: 800px;
+}
+
+.Button {
+  display: block;
+  background-color: #4a6da7;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.Imagem {
+  height: 150px;
+  width: 310px;
+}
+
+.Fonte {
+  font-size: 20px;
+  color: #4a6da7;
+  text-decoration: none;
+}
+
+.Título {
+  display: block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.ButtonNovidades {
+  background-color: #4a6da7;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.Direita {
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  color: white;
+}
+
+.LinkBíblia {
+  display: flex;
+}
+
+.TextoBíblia {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.TextoBíblia2 {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.ImagemBíblia {
+  height: 150px;
+  width: 150px;
+  margin-top: 15px;
+}
+
+.Título2 {
+  display: flex;
+  margin: 5px;
+}
+
+.Coluna1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Assunto1 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011202/univ/art/1011202_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.Assunto2 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011556/univ/art/1011556_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.Assunto3 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011580/univ/art/1011580_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.Coluna2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Assunto4 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011205/univ/art/1011205_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.Assunto5 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011206/univ/art/1011206_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.Assunto6 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011204/univ/art/1011204_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.Coluna3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Assunto7 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011552/univ/art/1011552_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.Assunto8 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011569/univ/art/1011569_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.Assunto9 {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1011233/univ/art/1011233_univ_pnr_md.jpg);
+  background-size: contain;
+  height: 110px;
+  width: 348px;
+  font-size: 20px;
+}
+
+.CursoImagem {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.CursoBíblia {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.CursoLink {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.CursoTexto {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Vídeo-Principal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/1112023100/univ/art/1112023100_univ_pnr_lg.jpg);
+  width: 999px;
+  height: 380px;
+  color: white;
+}
+
+.título-vídeo {
+  font-size: 40px;
+}
+
+.texto-vídeo {
+  font-size: 22px;
+}
+
+.Lista-Vídeos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Imagem-Vídeo {
+  background-image: url(./Pedrinho\ e\ Família.jpg);
+  background-size: cover;
+  height: 180px;
+  width: 350px;
+  margin: 5px;
+}
+
+.Imagem-Vídeo2 {
+  background-image: url(./Bíblia\ Produzida.jpg);
+  background-size: cover;
+  height: 180px;
+  width: 350px;
+  margin: 5px;
+}
+
+.Imagem-Vídeo3 {
+  background-image: url(./Casal\ de\ Surdos.jpg);
+  background-size: cover;
+  height: 180px;
+  width: 350px;
+  margin: 5px;
+}
+
+.Texto-Vídeos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.Texto-Classificação {
+  font-size: 20px;
+}
+
+.Texto-Explicação {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Explicação2 {
+  display: block;
+}
+
+.Texto-Imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 290px;
+  height: 330px;
+}
